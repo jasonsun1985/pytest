@@ -1,0 +1,6 @@
+2018-08-21 10:25:37,028 - D:\jee-photon-workspace\pytest\com\test\test_decorator.py[line:17] - INFO: current Function [fast] run time is 1.20
+2018-08-21 10:32:33,223 - D:\jee-photon-workspace\pytest\com\test\util.py[line:18] - INFO: current Function [fast] run time is 1.20
+2018-08-21 10:33:47,393 - [line:19] - INFO: current Function [fast] run time is 1.20
+2018-08-21 10:34:52,613 - INFO: current Function [fast] run time is 1.20
+2018-08-21 10:36:56,655 - INFO: ('{1:2,3:4} ÊÇ dict Âð £¿ ', True)
+2018-08-21 14:45:39,049 - INFO: current Function [fast] run time is 1.20
