@@ -281,7 +281,7 @@ print(rrr)
 def is_odd(n):
     return n % 2 == 1
 r1=filter(is_odd,[1, 2, 3, 4, 5, 6, 7, 8, 9])
-print(list(r1))
+print("list(r1) :",list(r1))
 
 def _odd_iter():
     n=1
@@ -334,3 +334,23 @@ class Student(object):
 
 s = Student("jason", 18,100)
 print(json.dumps(s,default=student2dict))
+
+student = {'Tom', 'Jim', 'Mary', 'Tom', 'Jack', 'Rose'}
+print(student)   # 输出集合，重复的元素被自动去掉
+# 成员测试
+if 'Rose' in student :
+    print('Rose 在集合中')
+else :
+    print('Rose 不在集合中')
+
+
+# set可以进行集合运算
+a = set('abracadabra')
+b = set('alacazam')
+
+print(a)
+print("a和b的差集 ",a - b)     # a和b的差集
+print("b和a的差集 ",b - a)     # b和a的差集
+print("a和b的并集 ",a | b)     # a和b的并集
+print("a和b的交集 ",a & b)     # a和b的交集
+print("a和b中不同时存在的元素 ",a ^ b)     # a和b中不同时存在的元素
