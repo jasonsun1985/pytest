@@ -3,7 +3,6 @@ import os
 from multiprocessing import Process, Pool, Queue
 import random
 import time
-from asyncio.tasks import sleep
 # 子进程要执行的代码
 def run_proc(name):
     print('Run child process %s (%s)...' % (name, os.getpid()))
