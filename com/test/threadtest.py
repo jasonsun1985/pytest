@@ -1,7 +1,6 @@
 #coding:utf-8
 import threading
 import time
-from ctypes.test.test_pickling import name
 def loop():
     print("thread %s is running ..." % threading.current_thread().name)
     n=0
