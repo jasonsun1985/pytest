@@ -3,7 +3,7 @@ import pymysql
 import time
 
 # db=pymysql.connect("localhost","root","root","test")
-db=pymysql.connect("172.17.162.5","riil","a","test")
+db=pymysql.connect("172.17.162.5","riil","","test")
 cursor=db.cursor()
 # cursor.execute("select * from demo");
 query_sql="select * from text"
